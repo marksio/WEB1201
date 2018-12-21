@@ -1,0 +1,111 @@
+.main_image{
+    background-image:url(../Images/starswp.jpg);
+    background-repeat: no-repeat;
+    min-height:700px;
+}
+.aqua{
+    background-image:url("../Images/aquarius1.png");
+    min-height:800px;
+}
+.pisces{
+    background-image:url("../Images/pisces1.png");
+    min-height:800px;
+}
+.aries {
+    background-image:url("../Images/aries1.png");
+    min-height:800px;
+}
+.taurus{
+    background-image:url("../Images/taurus1.png");
+    min-height:800px;
+}
+.gemini{
+    background-image:url("../Images/gemini1.png");
+    min-height:800px;
+}
+.cancer{
+    background-image:url("../Images/cancer1.png");
+    min-height:800px;
+}
+.leo{
+    background-image:url("../Images/leo1.png");
+    min-height:800px;
+}
+.virgo{
+    background-image:url("../Images/virgo1.png");
+    min-height:800px;
+}
+.libra{
+    background-image:url("../Images/libra1.png");
+    min-height:800px;
+}
+.scorpio{
+    background-image:url("../Images/scorpius1.png");
+    min-height:800px;
+}
+.sagi{
+    background-image:url("../Images/sagittarius1.png");
+    min-height:800px;
+}
+.capri{
+    background-image:url("../Images/capricorn1.png");
+    min-height:800px;
+}
+.section-light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+.section-dark{
+    background-color:#001f33;
+    color:#ddd;
+    text-align:center;
+    padding:50px 80px;
+}
+
+.main_text{
+   position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase; 
+}
+
+.main_text .border {
+    background-color: black;
+    color: white;
+    padding:10px;
+}
+
+.text1{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+
+.text1 .border{
+    background-color: #000;
+    color: #fff;
+    padding:20px;
+}
+.capri,.aqua,.pisces,.aries,.taurus,.gemini,.cancer,.leo,.virgo,.libra,.scorpio,.sagi{
+    position:relative;
+    opacity:1;
+    background-position:center;
+    background-size:cover;          /*allows the picture to cover the whole page*/
+    background-repeat:no-repeat;
+    background-attachment:fixed;    /*holds the picture in place so it gives the scrolling effect*/
+ }
+.main_image{
+    position:relative;
+    background-position:center;
+    background-size:cover;          
+    background-repeat:no-repeat;
+    background-attachment:fixed;        
+ }
